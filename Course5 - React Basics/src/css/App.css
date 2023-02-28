@@ -1,0 +1,66 @@
+* {
+  font-family: sans-serif;
+}
+
+.header {
+  text-align: center;
+}
+
+nav {
+  background: #ee9972;
+  padding: 20px;
+}
+nav a {
+  color: #edefee;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.nav-item {
+  padding: 20px;
+}
+
+a.nav-item:hover {
+  background: #c55725;
+}
+
+.active {
+  background: #c55725;
+}
+
+.result {
+  padding: 20px;
+  margin: 20px;
+  background-color: antiquewhite;
+}
+
+.card {
+  margin: 20px;
+  max-width: 300px;
+  border: 1px solid gray;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Given CSS for Calculator APP */
+input,
+.cal-button {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+input {
+  display: block;
+  margin-bottom: 20px;
+}
+.cal-button {
+  border: 1px solid gray;
+  background: whitesmoke;
+  margin-right: 5px;
+}
+.cal-button:nth-last-child(2),
+.cal-button:nth-last-child(1) {
+  background: tomato;
+  color: white;
+}
