@@ -1,0 +1,172 @@
+body {
+  background-color: #edefee;
+  font-family: "Times New Roman", Times, serif;
+  margin: 3rem 5%;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+img {
+  max-width: 250px;
+}
+
+header > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  background-color: #ee9972;
+  border-radius: 16px;
+  margin-bottom: 1rem;
+}
+
+nav ul {
+  padding: 5px;
+  list-style: none;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin: 0 20px;
+}
+
+.highlight {
+  /* background-color: #495e57; */
+  background-image: url("./Hero.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.highlight img {
+  border-radius: 16px;
+}
+
+.highlight p {
+  text-align: left;
+}
+
+.card {
+  background-color: #fdf4ee;
+  margin: 1rem;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.card img {
+  border-radius: 16px;
+  width: 150px;
+}
+
+section,
+footer {
+  display: flex;
+}
+
+article,
+footer > div {
+  flex: 1;
+}
+
+footer {
+  padding-top: 2rem;
+  font-size: 14px;
+  font-style: italic;
+}
+
+footer p {
+  text-align: right;
+}
+
+footer img {
+  width: 30px;
+}
+
+/* MENU */
+.menu {
+  font-family: Monaco;
+}
+
+.menu-title {
+  text-align: center;
+  color: #495e57;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #495e57;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: center;
+}
+
+.section {
+  padding: 10px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.description {
+  font-style: italic;
+  border-top: 2px solid #495e57;
+}
+
+.item-name {
+  margin: 25px;
+  font-size: 12px;
+}
+
+b {
+  float: right;
+  margin-top: -15px;
+  color: darkcyan;
+}
+
+.menu {
+  background-color: #fdf4ee;
+  border-radius: 16px;
+}
+
+.menu div > h3 {
+  font-size: 20px;
+  margin: 20px;
+  text-align: center;
+  color: #495e57;
+}
+
+.label + .low {
+  color: brown;
+}
+
+.menu div ~ div {
+  color: rgb(90, 90, 90);
+}
+
+.about {
+  background-color: #fdf4ee;
+  padding: 1rem;
+  border-radius: 16px;
+}
+
+.about h1 {
+  color: #495e57;
+}
