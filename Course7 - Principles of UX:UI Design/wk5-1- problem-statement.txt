@@ -1,0 +1,10 @@
+# Problem Statement
+
+The Little Lemon website currently has no reservation service.
+
+A customer who doesn't like waiting in-line is having trouble with booking tables online 
+because she cannot find it.
+As a result, she rarely dine-in at Little Lemon restaurant.
+
+An online reservation service must be added to enhance customer conveniency and it must be easy to find.
+
