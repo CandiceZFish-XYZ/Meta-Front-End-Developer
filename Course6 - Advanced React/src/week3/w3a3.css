@@ -1,0 +1,32 @@
+.w3a3-app {
+  padding: 16px;
+  width: 400px;
+}
+
+.w3a3-app fieldset {
+  display: flex;
+  flex-direction: column;
+}
+
+.w3a3-app label {
+  margin-right: 8px;
+}
+
+.w3a3-app .Field {
+  padding-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.w3a3-app .Row {
+  display: flex;
+  flex-direction: row;
+}
+
+.w3a3-app label {
+  margin-bottom: 16px;
+}
+
+.w3a3-app textarea {
+  height: 100px;
+}

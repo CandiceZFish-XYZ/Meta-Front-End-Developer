@@ -1,0 +1,40 @@
+* {
+  font-family: sans-serif;
+}
+
+.header {
+  text-align: center;
+}
+
+nav {
+  background: #ee9972;
+  padding: 20px;
+}
+nav a {
+  color: #edefee;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.nav-item {
+  padding: 20px;
+}
+
+a.nav-item:hover {
+  background: #c55725;
+}
+
+.active {
+  background: #c55725;
+}
+
+.result {
+  padding: 20px;
+  margin: 20px;
+  background-color: antiquewhite;
+}
+
+.week4 img {
+  max-width: 500px;
+}

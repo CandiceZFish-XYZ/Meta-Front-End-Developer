@@ -1,0 +1,78 @@
+.form {
+  display: flex;
+  flex: 1;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.w1a2-form fieldset {
+  display: flex;
+  width: 480px;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex-direction: column;
+}
+
+.w1a2-form label {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.w1a2-form sup {
+  color: red;
+  top: -2px;
+  font-size: 95%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+.w1a2-form input,
+.w1a2-form select {
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  height: 32px;
+  padding: 0 8px;
+}
+
+.w1a2-form .Field {
+  position: relative;
+  padding-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.w1a2-form .FieldError {
+  position: absolute;
+  bottom: -6px;
+  color: red;
+  font-size: 12px;
+}
+
+.w1a2-form .Row {
+  display: flex;
+  flex-direction: row;
+}
+
+.w1a2-form button {
+  padding: 12px;
+  width: 240px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: darkblue;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.w1a2-form button:disabled,
+.w1a2-form button[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}

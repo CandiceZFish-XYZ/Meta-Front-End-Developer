@@ -1,0 +1,30 @@
+.w3a2-app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.w3a2-app .Header {
+  margin: 32px;
+}
+
+.w3a2-app .Row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  height: 64px;
+}
+
+.w3a2-app p {
+  margin: 0;
+}
+
+.w3a2-app .BasicTracker {
+  border: 1px solid black;
+  padding: 16px;
+  margin-bottom: 128px;
+}
